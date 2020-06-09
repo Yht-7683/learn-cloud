@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="cloud-nacos-9002" />
+        <module name="cloud-nacos-9003" />
+        <module name="cloud-provide" />
+        <module name="cloud-test" />
+        <module name="cloudalibaba-config-nacos-client3377" />
+        <module name="nacos-order-83" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="cloud-nacos-9001" target="1.8" />
+      <module name="cloud-provide (1)" target="1.8" />
+      <module name="cloud-provide-9002" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

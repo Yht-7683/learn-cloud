@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yht.cloud.nacos.dao.EChartDao">
+    <select id="getAll" resultType="com.yht.cloud.nacos.vo.EChart">
+        select * from echart;
+    </select>
+    <select id="getRate" resultType="float">
+        select rate from echart;
+    </select>
+    <select id="getIncrease" resultType="int">
+        select increase from echart;
+    </select>
+</mapper>
